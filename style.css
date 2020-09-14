@@ -6,6 +6,9 @@ body {
 /*-------------------------------------- header-nav --------------------------------------*/
 .header-nav {
     box-shadow: 0 16px 38px -12px rgb(158 158 158 / 10%), 0 4px 25px 0px rgb(0 0 0 / 6%), 0 8px 10px -5px rgb(205 205 205 / 10%);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 .header-nav ul li.logo {
@@ -113,6 +116,7 @@ a.notification.show-notification .notification-card {
     box-shadow: 0 16px 38px -12px rgb(60 60 60 / 10%), 0 4px 25px 0px rgb(0 0 0 / 2%), 0 8px 10px -5px rgb(205 205 205 / 10%);
     position: fixed;
     height: 100%;
+    margin: 60px 0 0 0;
 }
 
 .sidebar-nav ul {
